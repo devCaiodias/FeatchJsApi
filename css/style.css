@@ -6,12 +6,13 @@
 body {
     background-color: black;
     color: white;
+    position: relative;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
     font-weight: bolder;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 
 main {
@@ -42,4 +43,11 @@ input[type="submit"] {
     font-size: 1em;
     border: none;
     cursor: pointer;
+    display: inline-block;
+
+    position: relative;
+    top: 50%;
+    left: 49%;
+    transform: translate(-40%, -0%);
+    margin: 10px 0px;
 }
